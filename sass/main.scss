@@ -1,0 +1,24 @@
+@import './utils/variables';
+@import './base/normalize';
+body {
+    background-color: #ffffff;
+    color: $text-color;
+    font-family: "DM sans", sans-serif;
+}
+img {
+        display: block;
+        width: 100%;
+        height: auto;
+}
+@import './utils/placeholder';
+@import './components/page-header';
+@import './components/hero';
+@import './components/products';
+@import './components/about';
+@import './components/advantages';
+@import './components/gallery';
+@import './components/reviews';
+@import './components/contacts';
+@import './components/page-footer';
+@import './components/modal';
+
